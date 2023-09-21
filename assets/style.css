@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+.hero{
+    background: linear-gradient(rgb(8, 11, 90), rgb(45, 23, 173));
+}
+
+.hero-container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.hero-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.hero-profile img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.hero-profile h2{
+    margin: 10px 0;
+}
+
+/*  */
+
+.giftcard-faq{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.giftcard-faq h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.giftcard-progress{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.giftcard-progress div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.giftcard-progress div > p{
+    width: 30px;
+    padding: 5px;
+    background: rgba(21, 21, 21, 0.671);
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.giftcard-progress div h3{
+    margin-left: 5px;
+}
+
+.continue-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.continue-btn a{
+    background-color: rgb(18, 18, 18);
+    padding: 10px 60px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amount h2{
+    margin-top: 30px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.buttons a{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-amount{
+    padding-bottom: 30px;
+}
+
+.hero-profile p{
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    .hero-container{
+        width: 500px;
+    }
+}
+
+@media (max-width: 530px){
+    .hero-container{
+        width: 450px;
+    }
+    .hero-profile p{
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px){
+    .hero-container{
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px){
+    .hero-container{
+        width: 380px;
+    }
+    .hero-profile p{
+        width: 350px;
+    }
+    .giftcard-faq h2{
+        font-size: 26px;
+        margin-left: 20px;
+    }
+    .giftcard-progress{
+        font-size: 14px;
+    }
+    .continue-btn{
+        margin-left: -50px;
+    }
+    .amount h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 380px){
+    .hero{
+        margin-left: 5px;
+    }
+    .hero-container{
+        width: 320px;
+    }
+    .hero-profile p{
+        width: 320px;
+    }
+    .giftcard-faq h2{
+        font-size: 24px;
+    }
+    .giftcard-progress{
+        font-size: 12px;
+    }
+    .continue-btn{
+        margin-left: -70px;
+    }
+    .amount h2{
+        font-size: 18px;
+    }
+    .buttons a{
+        width: 250px;;
+    }
+}
