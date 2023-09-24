@@ -9,6 +9,7 @@
 body{
     font-family: 'Lato', sans-serif;
     color: #fff;
+    background: linear-gradient(rgb(8, 11, 90), rgb(45, 23, 173));
 }
 
 .hero{
